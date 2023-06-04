@@ -11,6 +11,7 @@ from Forms import Ui_Form
 
 """
 Преобразование uic -> py: pyuic5 Forms/Form_downloader.ui -o Forms/Form_downloader.py
+Создание requirements файла: pip3 freeze > requirements.txt
 """
 
 logger.add("debug.log", format="{time} {level} {message}", level="DEBUG")
