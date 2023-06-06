@@ -224,3 +224,1510 @@ TypeError: setText(self, a0: str): argument 1 has unexpected type 'WindowsPath'
 2023-06-04T16:54:59.587388+0300 INFO Испущен сигнал окончания работы потока
 2023-06-04T16:54:59.591391+0300 INFO Установил в progressBar значение: 100
 2023-06-04T16:54:59.591391+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-04T17:12:55.960351+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-04T17:12:55.960351+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-04T17:12:55.960351+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-04T17:13:01.076989+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=Q1h09BoacxY
+2023-06-04T17:13:01.076989+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-04T17:13:01.076989+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=Q1h09BoacxY
+2023-06-04T17:13:01.076989+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x00000223DF2404C0>
+2023-06-04T17:13:01.077989+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x00000223DF240550>
+2023-06-04T17:13:01.077989+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-04T17:13:01.077989+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-04T17:13:01.077989+0300 INFO Настраиваю рабочие сигналы
+2023-06-04T17:13:01.078989+0300 INFO Настраиваю сигналы конца
+2023-06-04T17:13:01.078989+0300 INFO Настраиваю действия после закрытия потока
+2023-06-04T17:13:01.078989+0300 INFO Поток запущен
+2023-06-04T17:13:01.079989+0300 INFO Установил в progressBar значение: 0
+2023-06-04T17:13:01.080981+0300 INFO Испущен сигнал начала работы потока
+2023-06-04T17:13:01.080981+0300 INFO Испущен сигнал возникновения ошибки
+2023-06-04T17:13:01.080981+0300 INFO Испущен сигнал окончания работы потока
+2023-06-04T17:13:01.087990+0300 INFO Установил в progressBar значение: 100
+2023-06-04T17:13:01.088990+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-04T17:15:55.447366+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-04T17:15:55.447366+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-04T17:15:55.448366+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-04T17:16:00.444923+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=Q1h09BoacxY
+2023-06-04T17:16:00.444923+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-04T17:16:00.444923+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=Q1h09BoacxY
+2023-06-04T17:16:00.444923+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001D6939D0430>
+2023-06-04T17:16:00.445923+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001D6939D04C0>
+2023-06-04T17:16:00.445923+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-04T17:16:00.446924+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-04T17:16:00.446924+0300 INFO Настраиваю рабочие сигналы
+2023-06-04T17:16:00.446924+0300 INFO Настраиваю сигналы конца
+2023-06-04T17:16:00.446924+0300 INFO Настраиваю действия после закрытия потока
+2023-06-04T17:16:00.447924+0300 INFO Поток запущен
+2023-06-04T17:16:00.448925+0300 INFO Установил в progressBar значение: 0
+2023-06-04T17:16:00.448925+0300 INFO Испущен сигнал начала работы потока
+2023-06-04T17:16:00.449925+0300 INFO Испущен сигнал возникновения ошибки
+2023-06-04T17:16:00.449925+0300 INFO Испущен сигнал окончания работы потока
+2023-06-04T17:16:00.456926+0300 INFO Установил в progressBar значение: 100
+2023-06-04T17:16:00.456926+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-04T17:16:00.456926+0300 INFO Поток закрыт
+2023-06-04T17:28:40.277731+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-04T17:28:40.277731+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-04T17:28:40.278730+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-04T17:28:44.923738+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=Q1h09BoacxY
+2023-06-04T17:28:44.924738+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-04T17:28:44.924738+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=Q1h09BoacxY
+2023-06-04T17:28:44.924738+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002BD93340550>
+2023-06-04T17:28:44.925738+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002BD933405E0>
+2023-06-04T17:28:44.925738+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-04T17:28:44.925738+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-04T17:28:44.925738+0300 INFO Настраиваю стартовые сигналы
+2023-06-04T17:28:44.926739+0300 INFO Настраиваю рабочие сигналы
+2023-06-04T17:28:44.926739+0300 INFO Настраиваю сигналы конца
+2023-06-04T17:28:44.926739+0300 INFO Настраиваю действия после закрытия потока
+2023-06-04T17:28:44.926739+0300 INFO Поток запущен
+2023-06-04T17:28:44.927739+0300 INFO Установил в progressBar значение: 0
+2023-06-04T17:28:44.928739+0300 INFO Испущен сигнал начала работы потока
+2023-06-04T17:28:44.928739+0300 INFO Попытка создания объекта видео
+2023-06-04T17:28:44.929740+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=Q1h09BoacxY>
+2023-06-04T17:28:44.929740+0300 INFO Испущен сигнал возникновения ошибки
+2023-06-04T17:28:44.929740+0300 INFO Испущен сигнал окончания работы потока
+2023-06-04T17:28:44.932740+0300 INFO Поток запущен
+2023-06-04T17:28:44.934741+0300 INFO Установил в progressBar значение: 100
+2023-06-04T17:28:44.935741+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-04T17:28:44.935741+0300 INFO Поток закрыт
+2023-06-04T17:36:39.752604+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-04T17:36:39.752604+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-04T17:36:39.753604+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-04T17:36:45.356611+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=Q1h09BoacxY
+2023-06-04T17:36:45.356611+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-04T17:36:45.356611+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=Q1h09BoacxY
+2023-06-04T17:36:45.356611+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002709A4105E0>
+2023-06-04T17:36:45.357611+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002709A410670>
+2023-06-04T17:36:45.357611+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-04T17:36:45.358611+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-04T17:36:45.358611+0300 INFO Настраиваю стартовые сигналы
+2023-06-04T17:36:45.358611+0300 INFO Настраиваю рабочие сигналы
+2023-06-04T17:36:45.358611+0300 INFO Настраиваю сигналы конца
+2023-06-04T17:36:45.359611+0300 INFO Настраиваю действия после закрытия потока
+2023-06-04T17:36:45.359611+0300 INFO Поток запущен
+2023-06-04T17:36:45.360611+0300 INFO Установил в progressBar значение: 0
+2023-06-04T17:36:45.360611+0300 INFO Испущен сигнал начала работы потока
+2023-06-04T17:36:45.361612+0300 INFO Попытка создания объекта видео
+2023-06-04T17:36:45.361612+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=Q1h09BoacxY>
+2023-06-04T17:36:45.372614+0300 INFO Поток запущен
+2023-06-04T17:36:47.497616+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-04T17:36:47.497616+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-04T17:36:47.498616+0300 INFO Испущен сигнал окончания работы потока
+2023-06-04T17:36:47.500616+0300 INFO Установил в progressBar значение: 100
+2023-06-04T17:36:47.500616+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-04T17:36:47.500616+0300 INFO Поток закрыт
+2023-06-04T17:38:38.528961+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-04T17:38:38.528961+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-04T17:38:38.528961+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-04T17:38:40.220110+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=As56cJJiJUk
+2023-06-04T17:38:40.220110+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-04T17:38:40.220110+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=As56cJJiJUk
+2023-06-04T17:38:40.221110+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001E530680670>
+2023-06-04T17:38:40.221110+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001E530680700>
+2023-06-04T17:38:40.222111+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-04T17:38:40.222111+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-04T17:38:40.222111+0300 INFO Настраиваю стартовые сигналы
+2023-06-04T17:38:40.222111+0300 INFO Настраиваю рабочие сигналы
+2023-06-04T17:38:40.222111+0300 INFO Настраиваю сигналы конца
+2023-06-04T17:38:40.222111+0300 INFO Настраиваю действия после закрытия потока
+2023-06-04T17:38:40.223111+0300 INFO download_video_thread.start()
+2023-06-04T17:38:40.223111+0300 INFO Установил в progressBar значение: 0
+2023-06-04T17:38:40.224112+0300 INFO Испущен сигнал начала работы потока
+2023-06-04T17:38:40.225112+0300 INFO Попытка создания объекта видео
+2023-06-04T17:38:40.225112+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=As56cJJiJUk>
+2023-06-04T17:38:40.228112+0300 INFO Поток запущен
+2023-06-04T17:38:42.144623+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-04T17:38:42.144623+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-04T17:38:42.144623+0300 INFO Испущен сигнал окончания работы потока
+2023-06-04T17:38:42.147624+0300 INFO Установил в progressBar значение: 100
+2023-06-04T17:38:42.147624+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-04T17:38:42.147624+0300 INFO Поток закрыт
+2023-06-05T17:42:48.996139+0300 INFO Сохранил путь для скачивания: C:\Users\kupri\OneDrive\Рабочий стол и установил его в поле пути
+2023-06-05T17:42:49.012350+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T17:42:49.013349+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T17:42:52.547814+0300 INFO Некорректная ссылка: 
+2023-06-05T17:43:04.011297+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=SUidcMQM7CM
+2023-06-05T17:43:04.012298+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T17:43:04.012298+0300 INFO В конструкторе потокового класса создал переменные path_saved = C:\Users\kupri\OneDrive\Рабочий стол, url_video = https://www.youtube.com/watch?v=SUidcMQM7CM
+2023-06-05T17:43:04.012298+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002870D444790>
+2023-06-05T17:43:04.031404+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002870D444700>
+2023-06-05T17:43:04.031404+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T17:43:04.031404+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T17:43:04.032405+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T17:43:04.032405+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T17:43:04.032405+0300 ERROR An error has been caught in function '<lambda>', process 'MainProcess' (13976), thread 'MainThread' (3488):
+Traceback (most recent call last):
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2195, in <module>
+    main()
+    └ <function main at 0x000002870D02C160>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2177, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 65230, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000002870D01B130>
+              └ <__main__.PyDB object at 0x000002870C1FE5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1489, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000002870D01B1C0>
+           └ <__main__.PyDB object at 0x000002870C1FE5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+    │             └ <function execfile at 0x000002870C16D3F0>
+    └ <module '_pydev_bundle.pydev_imports' from 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.1\\plugins\\python...
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              │              └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+                 └ 'import sys\nfrom datetime import datetime\nfrom pathlib import Path\n\nfrom PyQt5 import QtWidgets\nfrom PyQt5.QtCore import...
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 224, in <module>
+    sys.exit(_app.exec_())
+    │   │    │    └ <built-in method exec_>
+    │   │    └ <PyQt5.QtWidgets.QApplication object at 0x000002870D179AB0>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+> File "D:\Video_YouTube_Downloader_v3\main.py", line 53, in <lambda>
+    self.ui.pushButton_2.clicked.connect(lambda: self.download_video_MAINMETOD())
+    │    │  │            │                       │    └ <function MainWindow.download_video_MAINMETOD at 0x000002870D3DE560>
+    │    │  │            │                       └ <__main__.MainWindow object at 0x000002870D3DED40>
+    │    │  │            └ <unbound PYQT_SIGNAL clicked(bool)>
+    │    │  └ <PyQt5.QtWidgets.QPushButton object at 0x000002870D3DF130>
+    │    └ <Forms.Form_downloader.Ui_Form object at 0x000002870CFEA1D0>
+    └ <__main__.MainWindow object at 0x000002870D3DED40>
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 162, in download_video_MAINMETOD
+    self.download_video_class._signal_run_thread.connect(
+    │    └ <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002870D444790>
+    └ <__main__.MainWindow object at 0x000002870D3DED40>
+
+AttributeError: 'UploadingAVideoInAnotherStream' object has no attribute '_signal_run_thread'
+2023-06-05T17:44:04.603105+0300 INFO Сохранил путь для скачивания: C:\Users\kupri\OneDrive\Рабочий стол и установил его в поле пути
+2023-06-05T17:44:04.604105+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T17:44:04.604105+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T17:44:07.668324+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=SUidcMQM7CM
+2023-06-05T17:44:07.668324+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T17:44:07.669324+0300 INFO В конструкторе потокового класса создал переменные path_saved = C:\Users\kupri\OneDrive\Рабочий стол, url_video = https://www.youtube.com/watch?v=SUidcMQM7CM
+2023-06-05T17:44:07.669324+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x00000256AC4F0820>
+2023-06-05T17:44:07.670324+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x00000256AC4F0790>
+2023-06-05T17:44:07.670324+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T17:44:07.670324+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T17:44:07.670324+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T17:44:07.670324+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T17:44:07.671325+0300 INFO Настраиваю сигналы конца
+2023-06-05T17:44:07.671325+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T17:44:07.671325+0300 INFO download_video_thread.start()
+2023-06-05T17:44:07.673325+0300 INFO Установил в progressBar значение: 0
+2023-06-05T17:44:07.674325+0300 INFO Поток начал работу
+2023-06-05T17:44:07.674325+0300 INFO Попытка создания объекта видео
+2023-06-05T17:44:07.675326+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=SUidcMQM7CM>
+2023-06-05T17:44:09.677238+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T17:44:09.677238+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T17:44:09.677238+0300 INFO Попытка получения автора видео
+2023-06-05T17:44:09.677238+0300 INFO Автор получен: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T17:44:09.677238+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T17:44:09.678238+0300 INFO Установил автора в поле
+2023-06-05T17:44:09.681238+0300 INFO Установил в progressBar значение: 100
+2023-06-05T17:44:09.682239+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T17:44:09.682239+0300 INFO Поток закрыт
+2023-06-05T17:49:56.003830+0300 INFO Сохранил путь для скачивания: C:\Users\kupri\OneDrive\Рабочий стол и установил его в поле пути
+2023-06-05T17:49:56.004830+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T17:49:56.004830+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T17:50:02.468249+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T17:50:02.468249+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T17:50:02.469249+0300 INFO В конструкторе потокового класса создал переменные path_saved = C:\Users\kupri\OneDrive\Рабочий стол, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T17:50:02.469249+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000025E436E89D0>
+2023-06-05T17:50:02.469249+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000025E436E8940>
+2023-06-05T17:50:02.470249+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T17:50:02.470249+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T17:50:02.470249+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T17:50:02.471250+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T17:50:02.471250+0300 INFO Настраиваю сигналы конца
+2023-06-05T17:50:02.471250+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T17:50:02.471250+0300 INFO download_video_thread.start()
+2023-06-05T17:50:02.473242+0300 INFO Установил в progressBar значение: 0
+2023-06-05T17:50:02.473242+0300 INFO Поток начал работу
+2023-06-05T17:50:02.474241+0300 INFO Попытка создания объекта видео
+2023-06-05T17:50:02.474241+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T17:50:04.510702+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T17:50:04.510702+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T17:50:04.510702+0300 INFO Попытка получения автора видео
+2023-06-05T17:50:04.510702+0300 INFO Автор получен: KL1NT
+2023-06-05T17:50:04.511701+0300 INFO Попытка получения названия видео
+2023-06-05T17:50:04.511701+0300 INFO Установил автора в поле
+2023-06-05T17:50:04.511701+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T17:50:04.511701+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T17:50:04.513702+0300 INFO Установил название видео в поле
+2023-06-05T17:50:04.516702+0300 INFO Установил в progressBar значение: 100
+2023-06-05T17:50:04.516702+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T17:50:04.516702+0300 INFO Поток закрыт
+2023-06-05T17:57:18.236124+0300 INFO Сохранил путь для скачивания: C:\Users\kupri\OneDrive\Рабочий стол и установил его в поле пути
+2023-06-05T17:57:18.236124+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T17:57:18.237124+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T17:57:26.764131+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T17:57:26.765131+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T17:57:26.765131+0300 INFO В конструкторе потокового класса создал переменные path_saved = C:\Users\kupri\OneDrive\Рабочий стол, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T17:57:26.765131+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000010F1E979090>
+2023-06-05T17:57:26.766132+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000010F1E979000>
+2023-06-05T17:57:26.766132+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T17:57:26.766132+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T17:57:26.766132+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T17:57:26.767132+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T17:57:26.767132+0300 INFO Настраиваю сигналы конца
+2023-06-05T17:57:26.767132+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T17:57:26.767132+0300 INFO download_video_thread.start()
+2023-06-05T17:57:26.768132+0300 INFO Установил в progressBar значение: 0
+2023-06-05T17:57:26.769132+0300 INFO Поток начал работу
+2023-06-05T17:57:26.770122+0300 INFO Попытка создания объекта видео
+2023-06-05T17:57:26.770122+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T17:57:28.804652+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T17:57:28.804652+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T17:57:28.804652+0300 INFO Попытка получения автора видео
+2023-06-05T17:57:28.805652+0300 INFO Автор получен: KL1NT
+2023-06-05T17:57:28.805652+0300 INFO Попытка получения названия видео
+2023-06-05T17:57:28.809891+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T17:57:28.809891+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T17:57:28.809891+0300 INFO Установил автора в поле
+2023-06-05T17:57:28.809891+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T17:57:28.810902+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T17:57:28.810902+0300 INFO Установил название видео в поле
+2023-06-05T17:57:28.817903+0300 INFO Установил в progressBar значение: 100
+2023-06-05T17:57:28.817903+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T17:57:28.817903+0300 INFO Поток закрыт
+2023-06-05T17:58:25.137579+0300 INFO Сохранил путь для скачивания: C:\Users\kupri\OneDrive\Рабочий стол и установил его в поле пути
+2023-06-05T17:58:25.138580+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T17:58:25.138580+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T17:58:32.851872+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T17:58:32.852873+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T17:58:32.852873+0300 INFO В конструкторе потокового класса создал переменные path_saved = C:\Users\kupri\OneDrive\Рабочий стол, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T17:58:32.852873+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x00000171739E5000>
+2023-06-05T17:58:32.853873+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x00000171739E4F70>
+2023-06-05T17:58:32.853873+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T17:58:32.853873+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T17:58:32.853873+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T17:58:32.854873+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T17:58:32.854873+0300 INFO Настраиваю сигналы конца
+2023-06-05T17:58:32.854873+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T17:58:32.855866+0300 INFO download_video_thread.start()
+2023-06-05T17:58:32.855866+0300 INFO Установил в progressBar значение: 0
+2023-06-05T17:58:32.856873+0300 INFO Поток начал работу
+2023-06-05T17:58:32.857865+0300 INFO Попытка создания объекта видео
+2023-06-05T17:58:32.857865+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T17:58:34.995100+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T17:58:34.995100+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T17:58:34.996101+0300 INFO Попытка получения автора видео
+2023-06-05T17:58:34.996101+0300 INFO Автор получен: KL1NT
+2023-06-05T17:58:34.996101+0300 INFO Попытка получения названия видео
+2023-06-05T17:58:34.996101+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T17:58:34.996101+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T17:58:34.997100+0300 INFO Установил автора в поле
+2023-06-05T17:58:34.998101+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T17:58:34.999100+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T17:58:34.999100+0300 INFO Установил название видео в поле
+2023-06-05T17:58:35.005102+0300 INFO Установил в progressBar значение: 100
+2023-06-05T17:58:35.006102+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T17:58:35.006102+0300 INFO Поток закрыт
+2023-06-05T18:06:42.018974+0300 INFO Сохранил путь для скачивания: C:\Users\kupri\OneDrive\Рабочий стол и установил его в поле пути
+2023-06-05T18:06:42.018974+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:06:42.018974+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:06:48.867473+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:06:48.868473+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:06:48.868473+0300 INFO В конструкторе потокового класса создал переменные path_saved = C:\Users\kupri\OneDrive\Рабочий стол, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:06:48.868473+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001EC49518E50>
+2023-06-05T18:06:48.869473+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001EC49518DC0>
+2023-06-05T18:06:48.869473+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:06:48.869473+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:06:48.869473+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:06:48.869473+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:06:48.870473+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:06:48.870473+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:06:48.870473+0300 INFO download_video_thread.start()
+2023-06-05T18:06:48.871473+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:06:48.872474+0300 INFO Поток начал работу
+2023-06-05T18:06:48.872474+0300 INFO Попытка создания объекта видео
+2023-06-05T18:06:48.873474+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:06:50.877293+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:06:50.878293+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:06:50.878293+0300 INFO Попытка получения автора видео
+2023-06-05T18:06:50.878293+0300 INFO Автор получен: KL1NT
+2023-06-05T18:06:50.878293+0300 INFO Попытка получения названия видео
+2023-06-05T18:06:50.879293+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:06:50.879293+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:06:50.879293+0300 INFO Установил автора в поле
+2023-06-05T18:06:50.879293+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:06:50.880294+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:06:50.881294+0300 INFO Установил название видео в поле
+2023-06-05T18:06:50.886295+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:06:50.887295+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:06:50.887295+0300 INFO Поток закрыт
+2023-06-05T18:07:31.972960+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:07:31.973961+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:07:31.973961+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:07:37.516433+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:07:37.516433+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:07:37.516433+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:07:37.516433+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001C88B664DC0>
+2023-06-05T18:07:37.517433+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001C88B664E50>
+2023-06-05T18:07:37.517433+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:07:37.517433+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:07:37.518434+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:07:37.518434+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:07:37.518434+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:07:37.518434+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:07:37.519434+0300 INFO download_video_thread.start()
+2023-06-05T18:07:37.520435+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:07:37.521434+0300 INFO Поток начал работу
+2023-06-05T18:07:37.522435+0300 INFO Попытка создания объекта видео
+2023-06-05T18:07:37.522435+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:07:39.581472+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:07:39.581472+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:07:39.582473+0300 INFO Попытка получения автора видео
+2023-06-05T18:07:39.582473+0300 INFO Автор получен: KL1NT
+2023-06-05T18:07:39.582473+0300 INFO Попытка получения названия видео
+2023-06-05T18:07:39.582473+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:07:39.583473+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:07:39.583473+0300 INFO Установил автора в поле
+2023-06-05T18:07:39.583473+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:07:39.584473+0300 ERROR An error has been caught in function '<lambda>', process 'MainProcess' (6360), thread 'MainThread' (14728):
+Traceback (most recent call last):
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2195, in <module>
+    main()
+    └ <function main at 0x000001C88B1FC160>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2177, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 49349, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000001C88B1EB130>
+              └ <__main__.PyDB object at 0x000001C88A3AE5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1489, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000001C88B1EB1C0>
+           └ <__main__.PyDB object at 0x000001C88A3AE5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+    │             └ <function execfile at 0x000001C88A30D3F0>
+    └ <module '_pydev_bundle.pydev_imports' from 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.1\\plugins\\python...
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              │              └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+                 └ 'import sys\nfrom datetime import datetime\nfrom pathlib import Path\n\nfrom PyQt5 import QtWidgets\nfrom PyQt5.QtCore import...
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 244, in <module>
+    sys.exit(_app.exec_())
+    │   │    │    └ <built-in method exec_>
+    │   │    └ <PyQt5.QtWidgets.QApplication object at 0x000001C88B349AB0>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+> File "D:\Video_YouTube_Downloader_v3\main.py", line 171, in <lambda>
+    lambda title: self.add_title_ADDITIONALMETHOD(title=title))
+           │      │    │                                └ 'Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов'
+           │      │    └ <function MainWindow.add_title_ADDITIONALMETHOD at 0x000001C88B5FB5B0>
+           │      └ <__main__.MainWindow object at 0x000001C88B5FB640>
+           └ 'Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов'
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 232, in add_title_ADDITIONALMETHOD
+    width = QFontMetrics(self.ui.title.font()).maxWidth()
+            │            │    └ <Forms.Form_downloader.Ui_Form object at 0x000001C88B1B9600>
+            │            └ <__main__.MainWindow object at 0x000001C88B5FB640>
+            └ <class 'PyQt5.QtGui.QFontMetrics'>
+
+AttributeError: 'Ui_Form' object has no attribute 'title'
+2023-06-05T18:07:39.613480+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:07:39.613480+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:07:39.613480+0300 INFO Поток закрыт
+2023-06-05T18:08:07.571716+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:08:07.572725+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:08:07.572725+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:08:14.667437+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:08:14.668437+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:08:14.668437+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:08:14.668437+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001FBEF718D30>
+2023-06-05T18:08:14.669428+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001FBEF718DC0>
+2023-06-05T18:08:14.669428+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:08:14.669428+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:08:14.670438+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:08:14.670438+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:08:14.670438+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:08:14.670438+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:08:14.671437+0300 INFO download_video_thread.start()
+2023-06-05T18:08:14.671437+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:08:14.672439+0300 INFO Поток начал работу
+2023-06-05T18:08:14.673438+0300 INFO Попытка создания объекта видео
+2023-06-05T18:08:14.673438+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:08:16.722801+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:08:16.722801+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:08:16.722801+0300 INFO Попытка получения автора видео
+2023-06-05T18:08:16.722801+0300 INFO Автор получен: KL1NT
+2023-06-05T18:08:16.723801+0300 INFO Попытка получения названия видео
+2023-06-05T18:08:16.723801+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:08:16.723801+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:08:16.723801+0300 INFO Установил автора в поле
+2023-06-05T18:08:16.724801+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:08:16.724801+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:08:16.725800+0300 INFO Установил название видео в поле
+2023-06-05T18:08:16.730801+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:08:16.730801+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:08:16.730801+0300 INFO Поток закрыт
+2023-06-05T18:10:15.447918+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:10:15.448918+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:10:15.448918+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:10:17.075908+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:10:17.075908+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:10:17.075908+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:10:17.075908+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000018DB99B9000>
+2023-06-05T18:10:17.076909+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000018DB99B9090>
+2023-06-05T18:10:17.076909+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:10:17.076909+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:10:17.077909+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:10:17.077909+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:10:17.077909+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:10:17.077909+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:10:17.078909+0300 INFO download_video_thread.start()
+2023-06-05T18:10:17.078909+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:10:17.079909+0300 INFO Поток начал работу
+2023-06-05T18:10:17.080910+0300 INFO Попытка создания объекта видео
+2023-06-05T18:10:17.080910+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:10:19.153707+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:10:19.153707+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:10:19.153707+0300 INFO Попытка получения автора видео
+2023-06-05T18:10:19.154707+0300 INFO Автор получен: KL1NT
+2023-06-05T18:10:19.154707+0300 INFO Попытка получения названия видео
+2023-06-05T18:10:19.154707+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:10:19.154707+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:10:19.155708+0300 INFO Установил автора в поле
+2023-06-05T18:10:19.155708+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:10:19.156708+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:10:19.156708+0300 INFO Установил название видео в поле
+2023-06-05T18:10:19.162708+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:10:19.162708+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:10:19.162708+0300 INFO Поток закрыт
+2023-06-05T18:13:12.499217+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:13:12.500216+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:13:12.500216+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:13:14.684164+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:13:14.684164+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:13:14.684164+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:13:14.685164+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002A92BF08D30>
+2023-06-05T18:13:14.685164+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002A92BF08DC0>
+2023-06-05T18:13:14.686164+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:13:14.686164+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:13:14.686164+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:13:14.686164+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:13:14.686164+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:13:14.687164+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:13:14.687164+0300 INFO download_video_thread.start()
+2023-06-05T18:13:14.688165+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:13:14.689166+0300 INFO Поток начал работу
+2023-06-05T18:13:14.690167+0300 INFO Попытка создания объекта видео
+2023-06-05T18:13:14.690167+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:13:16.666048+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:13:16.667049+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:13:16.667049+0300 INFO Попытка получения автора видео
+2023-06-05T18:13:16.667049+0300 INFO Автор получен: KL1NT
+2023-06-05T18:13:16.667049+0300 INFO Попытка получения названия видео
+2023-06-05T18:13:16.668049+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:13:16.668049+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:13:16.668049+0300 INFO Установил автора в поле
+2023-06-05T18:13:16.668049+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:13:16.669049+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:13:16.669049+0300 INFO Установил название видео в поле
+2023-06-05T18:13:16.675049+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:13:16.675049+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:13:16.675049+0300 INFO Поток закрыт
+2023-06-05T18:14:11.123742+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:14:11.123742+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:14:11.123742+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:14:12.747441+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:14:12.748441+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:14:12.748441+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:14:12.748441+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000017E24278DC0>
+2023-06-05T18:14:12.749442+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000017E24278E50>
+2023-06-05T18:14:12.749442+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:14:12.750442+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:14:12.750442+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:14:12.750442+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:14:12.750442+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:14:12.750442+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:14:12.751442+0300 INFO download_video_thread.start()
+2023-06-05T18:14:12.752443+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:14:12.753443+0300 INFO Поток начал работу
+2023-06-05T18:14:12.753443+0300 INFO Попытка создания объекта видео
+2023-06-05T18:14:12.754443+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:14:14.802241+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:14:14.802241+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:14:14.802241+0300 INFO Попытка получения автора видео
+2023-06-05T18:14:14.803242+0300 INFO Автор получен: KL1NT
+2023-06-05T18:14:14.803242+0300 INFO Попытка получения названия видео
+2023-06-05T18:14:14.803242+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:14:14.803242+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:14:14.804241+0300 INFO Установил автора в поле
+2023-06-05T18:14:14.804241+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:14:14.805241+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:14:14.805241+0300 INFO Установил название видео в поле
+2023-06-05T18:14:14.811242+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:14:14.811242+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:14:14.811242+0300 INFO Поток закрыт
+2023-06-05T18:16:43.597598+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:16:43.598598+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:16:43.598598+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:16:51.459994+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:16:51.460994+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:16:51.460994+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:16:51.460994+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002E76C0F8DC0>
+2023-06-05T18:16:51.461995+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002E76C0F8E50>
+2023-06-05T18:16:51.461995+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:16:51.461995+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:16:51.461995+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:16:51.462995+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:16:51.462995+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:16:51.462995+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:16:51.463995+0300 INFO download_video_thread.start()
+2023-06-05T18:16:51.463995+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:16:51.464995+0300 INFO Поток начал работу
+2023-06-05T18:16:51.466005+0300 INFO Попытка создания объекта видео
+2023-06-05T18:16:51.466005+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:16:53.516705+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:16:53.516705+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:16:53.516705+0300 INFO Попытка получения автора видео
+2023-06-05T18:16:53.517706+0300 INFO Автор получен: KL1NT
+2023-06-05T18:16:53.517706+0300 INFO Попытка получения названия видео
+2023-06-05T18:16:53.517706+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:16:53.517706+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:16:53.517706+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:16:53.518706+0300 INFO Установил автора в поле
+2023-06-05T18:16:53.518706+0300 INFO Ширина текстового поля в символах: 27, длина названия: 82
+2023-06-05T18:16:53.519708+0300 INFO Установил название видео в поле
+2023-06-05T18:16:53.525708+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:16:53.525708+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:16:53.525708+0300 INFO Поток закрыт
+2023-06-05T18:17:48.282796+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:17:48.282796+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:17:48.282796+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:17:50.443787+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:17:50.444788+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:17:50.444788+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:17:50.444788+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001CF51FA8DC0>
+2023-06-05T18:17:50.445788+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001CF51FA8E50>
+2023-06-05T18:17:50.445788+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:17:50.445788+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:17:50.445788+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:17:50.446788+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:17:50.446788+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:17:50.446788+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:17:50.447789+0300 INFO download_video_thread.start()
+2023-06-05T18:17:50.448789+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:17:50.448789+0300 INFO Поток начал работу
+2023-06-05T18:17:50.449788+0300 INFO Попытка создания объекта видео
+2023-06-05T18:17:50.449788+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:17:52.539179+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:17:52.540179+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:17:52.540179+0300 INFO Попытка получения автора видео
+2023-06-05T18:17:52.540179+0300 INFO Автор получен: KL1NT
+2023-06-05T18:17:52.540179+0300 INFO Попытка получения названия видео
+2023-06-05T18:17:52.541179+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:17:52.541179+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:17:52.541179+0300 INFO Установил автора в поле
+2023-06-05T18:17:52.541179+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:17:52.542180+0300 ERROR An error has been caught in function '<lambda>', process 'MainProcess' (18220), thread 'MainThread' (1312):
+Traceback (most recent call last):
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2195, in <module>
+    main()
+    └ <function main at 0x000001CF51ACC160>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2177, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 49566, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000001CF51ABB130>
+              └ <__main__.PyDB object at 0x000001CF50C7E5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1489, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000001CF51ABB1C0>
+           └ <__main__.PyDB object at 0x000001CF50C7E5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+    │             └ <function execfile at 0x000001CF50BDD3F0>
+    └ <module '_pydev_bundle.pydev_imports' from 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.1\\plugins\\python...
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              │              └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+                 └ 'import sys\nfrom datetime import datetime\nfrom pathlib import Path\n\nfrom PyQt5 import QtWidgets\nfrom PyQt5.QtCore import...
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 245, in <module>
+    sys.exit(_app.exec_())
+    │   │    │    └ <built-in method exec_>
+    │   │    └ <PyQt5.QtWidgets.QApplication object at 0x000001CF51C19AB0>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+> File "D:\Video_YouTube_Downloader_v3\main.py", line 171, in <lambda>
+    lambda title: self.add_title_ADDITIONALMETHOD(title=title))
+           │      │    │                                └ 'Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов'
+           │      │    └ <function MainWindow.add_title_ADDITIONALMETHOD at 0x000001CF51F3B5B0>
+           │      └ <__main__.MainWindow object at 0x000001CF51F3B640>
+           └ 'Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов'
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 233, in add_title_ADDITIONALMETHOD
+    width = QFontMetrics(self.ui.title_video.font()).maxWidth(self)
+            │            │    │  │           │                └ <__main__.MainWindow object at 0x000001CF51F3B640>
+            │            │    │  │           └ <built-in method font>
+            │            │    │  └ <PyQt5.QtWidgets.QLabel object at 0x000001CF51FA8430>
+            │            │    └ <Forms.Form_downloader.Ui_Form object at 0x000001CF51A895D0>
+            │            └ <__main__.MainWindow object at 0x000001CF51F3B640>
+            └ <class 'PyQt5.QtGui.QFontMetrics'>
+
+TypeError: maxWidth(self): too many arguments
+2023-06-05T18:17:52.571186+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:17:52.572186+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:17:52.572186+0300 INFO Поток закрыт
+2023-06-05T18:18:33.796780+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:18:33.797781+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:18:33.797781+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:18:35.499793+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:18:35.500793+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:18:35.500793+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:18:35.500793+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000025D01D58DC0>
+2023-06-05T18:18:35.501794+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000025D01D58E50>
+2023-06-05T18:18:35.501794+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:18:35.501794+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:18:35.501794+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:18:35.502794+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:18:35.502794+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:18:35.502794+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:18:35.502794+0300 INFO download_video_thread.start()
+2023-06-05T18:18:35.503794+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:18:35.504794+0300 INFO Поток начал работу
+2023-06-05T18:18:35.505784+0300 INFO Попытка создания объекта видео
+2023-06-05T18:18:35.505784+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:18:37.574640+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:18:37.575641+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:18:37.575641+0300 INFO Попытка получения автора видео
+2023-06-05T18:18:37.575641+0300 INFO Автор получен: KL1NT
+2023-06-05T18:18:37.575641+0300 INFO Попытка получения названия видео
+2023-06-05T18:18:37.575641+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:18:37.576640+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:18:37.576640+0300 INFO Установил автора в поле
+2023-06-05T18:18:37.576640+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:18:37.577640+0300 INFO Ширина текстового поля в символах: 1, длина названия: 82
+2023-06-05T18:18:37.577640+0300 INFO Установил название видео в поле
+2023-06-05T18:18:37.583642+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:18:37.583642+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:18:37.584642+0300 INFO Поток закрыт
+2023-06-05T18:20:15.651762+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-05T18:20:15.652761+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-05T18:20:15.652761+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-05T18:20:17.563767+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:20:17.563767+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-05T18:20:17.564767+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=eAkdubvnsPQ
+2023-06-05T18:20:17.564767+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001F68F204DC0>
+2023-06-05T18:20:17.565767+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001F68F204E50>
+2023-06-05T18:20:17.565767+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-05T18:20:17.565767+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-05T18:20:17.565767+0300 INFO Настраиваю стартовые сигналы
+2023-06-05T18:20:17.565767+0300 INFO Настраиваю рабочие сигналы
+2023-06-05T18:20:17.566767+0300 INFO Настраиваю сигналы конца
+2023-06-05T18:20:17.566767+0300 INFO Настраиваю действия после закрытия потока
+2023-06-05T18:20:17.566767+0300 INFO download_video_thread.start()
+2023-06-05T18:20:17.567768+0300 INFO Установил в progressBar значение: 0
+2023-06-05T18:20:17.568768+0300 INFO Поток начал работу
+2023-06-05T18:20:17.569760+0300 INFO Попытка создания объекта видео
+2023-06-05T18:20:17.569760+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=eAkdubvnsPQ>
+2023-06-05T18:20:19.505777+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-05T18:20:19.505777+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-05T18:20:19.505777+0300 INFO Попытка получения автора видео
+2023-06-05T18:20:19.505777+0300 INFO Автор получен: KL1NT
+2023-06-05T18:20:19.506778+0300 INFO Попытка получения названия видео
+2023-06-05T18:20:19.506778+0300 INFO Ширина текстового поля в символах: 27
+2023-06-05T18:20:19.506778+0300 INFO Название видео получено: Мальчик сирота получает 1000 навыков максимального уровня, способные убивать богов
+2023-06-05T18:20:19.506778+0300 INFO Установил автора в поле
+2023-06-05T18:20:19.507778+0300 INFO Испущен сигнал окончания работы потока
+2023-06-05T18:20:19.507778+0300 INFO Ширина текстового поля в символах: 27, длина названия: 82
+2023-06-05T18:20:19.508778+0300 INFO Установил название видео в поле
+2023-06-05T18:20:19.513779+0300 INFO Установил в progressBar значение: 100
+2023-06-05T18:20:19.513779+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-05T18:20:19.513779+0300 INFO Поток закрыт
+2023-06-06T19:43:11.571442+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:43:11.582445+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:43:11.582445+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:43:20.878330+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:43:20.878330+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:43:20.879329+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:43:20.879329+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002786B7A8D30>
+2023-06-06T19:43:20.907226+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002786B7A8DC0>
+2023-06-06T19:43:20.907226+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:43:20.907226+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:43:20.907226+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:43:20.907226+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:43:20.908227+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:43:20.908227+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:43:20.908227+0300 INFO download_video_thread.start()
+2023-06-06T19:43:20.909228+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:43:20.910228+0300 INFO Поток начал работу
+2023-06-06T19:43:20.911228+0300 INFO Попытка создания объекта видео
+2023-06-06T19:43:20.911228+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:43:22.956098+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:43:22.956098+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:43:22.956098+0300 INFO Попытка получения автора видео
+2023-06-06T19:43:22.957099+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:43:22.974103+0300 INFO Попытка получения названия видео
+2023-06-06T19:43:22.985105+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:43:22.985105+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:43:22.986105+0300 INFO Установил автора в поле
+2023-06-06T19:43:22.986105+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:43:23.003108+0300 INFO Ширина title: 518
+2023-06-06T19:43:23.003108+0300 INFO Установил название видео в поле
+2023-06-06T19:43:23.018112+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:43:23.019112+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:43:23.019112+0300 INFO Поток закрыт
+2023-06-06T19:45:06.690490+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:45:06.690490+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:45:06.690490+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:45:13.774751+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:45:13.774751+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:45:13.775751+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:45:13.775751+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001B0FCC78D30>
+2023-06-06T19:45:13.776751+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001B0FCC78DC0>
+2023-06-06T19:45:13.776751+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:45:13.776751+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:45:13.776751+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:45:13.776751+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:45:13.777752+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:45:13.777752+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:45:13.777752+0300 INFO download_video_thread.start()
+2023-06-06T19:45:13.778753+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:45:13.779752+0300 INFO Поток начал работу
+2023-06-06T19:45:13.780753+0300 INFO Попытка создания объекта видео
+2023-06-06T19:45:13.780753+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:45:15.883740+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:45:15.883740+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:45:15.883740+0300 INFO Попытка получения автора видео
+2023-06-06T19:45:15.884741+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:45:15.884741+0300 INFO Попытка получения названия видео
+2023-06-06T19:45:15.884741+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:45:15.884741+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:45:15.885741+0300 INFO Установил автора в поле
+2023-06-06T19:45:15.885741+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:45:15.886741+0300 INFO Ширина текста в title: 518
+2023-06-06T19:45:15.887741+0300 INFO Ширина title_video_label: 387
+2023-06-06T19:45:15.887741+0300 INFO Установил название видео в поле
+2023-06-06T19:45:15.893742+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:45:15.894742+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:45:15.894742+0300 INFO Поток закрыт
+2023-06-06T19:47:09.786657+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:47:09.786657+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:47:09.787658+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:47:11.607010+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:47:11.607010+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:47:11.607010+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:47:11.607010+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000021AC5558DC0>
+2023-06-06T19:47:11.608011+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000021AC5558E50>
+2023-06-06T19:47:11.608011+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:47:11.609011+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:47:11.609011+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:47:11.609011+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:47:11.609011+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:47:11.609011+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:47:11.610011+0300 INFO download_video_thread.start()
+2023-06-06T19:47:11.611011+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:47:11.612012+0300 INFO Поток начал работу
+2023-06-06T19:47:11.612012+0300 INFO Попытка создания объекта видео
+2023-06-06T19:47:11.613012+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:47:13.499877+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:47:13.500877+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:47:13.500877+0300 INFO Попытка получения автора видео
+2023-06-06T19:47:13.500877+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:47:13.500877+0300 INFO Попытка получения названия видео
+2023-06-06T19:47:13.501878+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:47:13.501878+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:47:13.501878+0300 INFO Установил автора в поле
+2023-06-06T19:47:13.502877+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:47:13.502877+0300 INFO Ширина текста в title: 518
+2023-06-06T19:47:13.503878+0300 INFO Ширина title_video_label: 387
+2023-06-06T19:47:13.503878+0300 INFO Установил название видео в поле
+2023-06-06T19:47:13.509879+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:47:13.509879+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:47:13.509879+0300 INFO Поток закрыт
+2023-06-06T19:48:44.934732+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:48:44.934732+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:48:44.935732+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:48:52.494641+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:48:52.494641+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:48:52.495641+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:48:52.495641+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001EF09864D30>
+2023-06-06T19:48:52.496641+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001EF09864DC0>
+2023-06-06T19:48:52.496641+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:48:52.496641+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:48:52.496641+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:48:52.497633+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:48:52.497633+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:48:52.497633+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:48:52.497633+0300 INFO download_video_thread.start()
+2023-06-06T19:48:52.498641+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:48:52.499642+0300 INFO Поток начал работу
+2023-06-06T19:48:52.500632+0300 INFO Попытка создания объекта видео
+2023-06-06T19:48:52.500632+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:48:54.631424+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:48:54.631424+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:48:54.631424+0300 INFO Попытка получения автора видео
+2023-06-06T19:48:54.632424+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:48:54.632424+0300 INFO Попытка получения названия видео
+2023-06-06T19:48:54.632424+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:48:54.632424+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:48:54.633425+0300 INFO Установил автора в поле
+2023-06-06T19:48:54.633425+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:48:54.634424+0300 INFO Ширина текста в title: 518
+2023-06-06T19:48:54.634424+0300 INFO Ширина title_video_label: 387
+2023-06-06T19:48:54.634424+0300 INFO Установил название видео в поле
+2023-06-06T19:48:54.641425+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:48:54.641425+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:48:54.641425+0300 INFO Поток закрыт
+2023-06-06T19:49:34.218866+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:49:34.218866+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:49:34.218866+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:49:35.918971+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:49:35.918971+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:49:35.918971+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:49:35.919971+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000026DA9148D30>
+2023-06-06T19:49:35.919971+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000026DA9148DC0>
+2023-06-06T19:49:35.920971+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:49:35.920971+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:49:35.920971+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:49:35.920971+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:49:35.920971+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:49:35.921971+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:49:35.921971+0300 INFO download_video_thread.start()
+2023-06-06T19:49:35.922972+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:49:35.923973+0300 INFO Поток начал работу
+2023-06-06T19:49:35.924973+0300 INFO Попытка создания объекта видео
+2023-06-06T19:49:35.924973+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:49:37.809921+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:49:37.810922+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:49:37.810922+0300 INFO Попытка получения автора видео
+2023-06-06T19:49:37.810922+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:49:37.810922+0300 INFO Попытка получения названия видео
+2023-06-06T19:49:37.811922+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:49:37.811922+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:49:37.811922+0300 INFO Установил автора в поле
+2023-06-06T19:49:37.811922+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:49:37.812922+0300 INFO Ширина текста в title: 518
+2023-06-06T19:49:37.812922+0300 INFO Ширина title_video_label: 387
+2023-06-06T19:49:37.813922+0300 INFO Установил название видео в поле
+2023-06-06T19:49:37.819924+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:49:37.819924+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:49:37.819924+0300 INFO Поток закрыт
+2023-06-06T19:52:09.894653+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:52:09.895653+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:52:09.895653+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:52:11.518683+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:52:11.518683+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:52:11.518683+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:52:11.519683+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001D935F48DC0>
+2023-06-06T19:52:11.519683+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001D935F48E50>
+2023-06-06T19:52:11.520684+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:52:11.520684+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:52:11.520684+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:52:11.520684+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:52:11.521684+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:52:11.521684+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:52:11.521684+0300 INFO download_video_thread.start()
+2023-06-06T19:52:11.522684+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:52:11.523676+0300 INFO Поток начал работу
+2023-06-06T19:52:11.523676+0300 INFO Попытка создания объекта видео
+2023-06-06T19:52:11.524675+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:52:13.532703+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:52:13.533704+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:52:13.533704+0300 INFO Попытка получения автора видео
+2023-06-06T19:52:13.533704+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:52:13.533704+0300 INFO Попытка получения названия видео
+2023-06-06T19:52:13.533704+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:52:13.534704+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:52:13.534704+0300 INFO Установил автора в поле
+2023-06-06T19:52:13.534704+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:52:13.535704+0300 INFO Ширина текста в title: 518
+2023-06-06T19:52:13.535704+0300 INFO Ширина title_video_label: 16777215
+2023-06-06T19:52:13.536704+0300 INFO Установил название видео в поле
+2023-06-06T19:52:13.542706+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:52:13.542706+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:52:13.542706+0300 INFO Поток закрыт
+2023-06-06T19:52:36.449034+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:52:36.449034+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:52:36.450043+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:52:38.070562+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:52:38.070562+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:52:38.071562+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:52:38.071562+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002050C818DC0>
+2023-06-06T19:52:38.072562+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002050C818E50>
+2023-06-06T19:52:38.072562+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:52:38.072562+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:52:38.072562+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:52:38.072562+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:52:38.073562+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:52:38.073562+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:52:38.073562+0300 INFO download_video_thread.start()
+2023-06-06T19:52:38.074562+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:52:38.075562+0300 INFO Поток начал работу
+2023-06-06T19:52:38.076563+0300 INFO Попытка создания объекта видео
+2023-06-06T19:52:38.076563+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:52:40.077944+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:52:40.077944+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:52:40.077944+0300 INFO Попытка получения автора видео
+2023-06-06T19:52:40.077944+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:52:40.078945+0300 INFO Попытка получения названия видео
+2023-06-06T19:52:40.078945+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:52:40.078945+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:52:40.078945+0300 INFO Установил автора в поле
+2023-06-06T19:52:40.079944+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:52:40.081119+0300 ERROR An error has been caught in function '<lambda>', process 'MainProcess' (19148), thread 'MainThread' (8536):
+Traceback (most recent call last):
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2195, in <module>
+    main()
+    └ <function main at 0x000002050C40C160>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2177, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 57740, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000002050C3FB130>
+              └ <__main__.PyDB object at 0x000002050B5BE5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1489, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000002050C3FB1C0>
+           └ <__main__.PyDB object at 0x000002050B5BE5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+    │             └ <function execfile at 0x000002050B51D3F0>
+    └ <module '_pydev_bundle.pydev_imports' from 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.1\\plugins\\python...
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              │              └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+                 └ 'import sys\nfrom datetime import datetime\nfrom pathlib import Path\n\nfrom PyQt5 import QtWidgets\nfrom PyQt5.QtCore import...
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 251, in <module>
+    sys.exit(_app.exec_())
+    │   │    │    └ <built-in method exec_>
+    │   │    └ <PyQt5.QtWidgets.QApplication object at 0x000002050C559AB0>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+> File "D:\Video_YouTube_Downloader_v3\main.py", line 171, in <lambda>
+    lambda title: self.add_title_ADDITIONALMETHOD(title=title))
+           │      │    │                                └ '90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?'
+           │      │    └ <function MainWindow.add_title_ADDITIONALMETHOD at 0x000002050C7AB5B0>
+           │      └ <__main__.MainWindow object at 0x000002050C7AB640>
+           └ '90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?'
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 233, in add_title_ADDITIONALMETHOD
+    width_label = self.ui.title_video.minWidth()
+                  │    │  └ <PyQt5.QtWidgets.QLabel object at 0x000002050C818430>
+                  │    └ <Forms.Form_downloader.Ui_Form object at 0x000002050C3C9600>
+                  └ <__main__.MainWindow object at 0x000002050C7AB640>
+
+AttributeError: 'QLabel' object has no attribute 'minWidth'
+2023-06-06T19:52:40.110298+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:52:40.110298+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:52:40.110298+0300 INFO Поток закрыт
+2023-06-06T19:53:15.675549+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:53:15.675549+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:53:15.675549+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:53:17.246973+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:53:17.246973+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:53:17.246973+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:53:17.246973+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002A4D67C8DC0>
+2023-06-06T19:53:17.247973+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002A4D67C8E50>
+2023-06-06T19:53:17.247973+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:53:17.248973+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:53:17.248973+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:53:17.248973+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:53:17.248973+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:53:17.249973+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:53:17.249973+0300 INFO download_video_thread.start()
+2023-06-06T19:53:17.250974+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:53:17.251974+0300 INFO Поток начал работу
+2023-06-06T19:53:17.252974+0300 INFO Попытка создания объекта видео
+2023-06-06T19:53:17.252974+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:53:19.168901+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:53:19.168901+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:53:19.169902+0300 INFO Попытка получения автора видео
+2023-06-06T19:53:19.169902+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:53:19.169902+0300 INFO Попытка получения названия видео
+2023-06-06T19:53:19.169902+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:53:19.169902+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:53:19.170901+0300 INFO Установил автора в поле
+2023-06-06T19:53:19.170901+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:53:19.171901+0300 INFO Ширина текста в title: 518
+2023-06-06T19:53:19.171901+0300 INFO Ширина title_video_label: 0
+2023-06-06T19:53:19.171901+0300 INFO Установил название видео в поле
+2023-06-06T19:53:19.177902+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:53:19.178903+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:53:19.178903+0300 INFO Поток закрыт
+2023-06-06T19:55:47.920505+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T19:55:47.920505+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T19:55:47.920505+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T19:55:49.974511+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:55:49.974511+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T19:55:49.974511+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T19:55:49.975511+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001F63B378D30>
+2023-06-06T19:55:49.975511+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001F63B378DC0>
+2023-06-06T19:55:49.976511+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T19:55:49.976511+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T19:55:49.976511+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T19:55:49.976511+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T19:55:49.977511+0300 INFO Настраиваю сигналы конца
+2023-06-06T19:55:49.977511+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T19:55:49.977511+0300 INFO download_video_thread.start()
+2023-06-06T19:55:49.978512+0300 INFO Установил в progressBar значение: 0
+2023-06-06T19:55:49.979512+0300 INFO Поток начал работу
+2023-06-06T19:55:49.979512+0300 INFO Попытка создания объекта видео
+2023-06-06T19:55:49.980512+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T19:55:51.956949+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T19:55:51.956949+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T19:55:51.956949+0300 INFO Попытка получения автора видео
+2023-06-06T19:55:51.956949+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T19:55:51.957945+0300 INFO Попытка получения названия видео
+2023-06-06T19:55:51.957945+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T19:55:51.957945+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T19:55:51.958944+0300 INFO Установил автора в поле
+2023-06-06T19:55:51.958944+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T19:55:51.959944+0300 INFO Установил название видео в поле
+2023-06-06T19:55:51.966945+0300 INFO Установил в progressBar значение: 100
+2023-06-06T19:55:51.966945+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T19:55:51.966945+0300 INFO Поток закрыт
+2023-06-06T20:03:03.567416+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:03:03.568415+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:03:03.568415+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:03:11.733808+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:03:11.734809+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:03:11.734809+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:03:11.734809+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000025C3D1E8D30>
+2023-06-06T20:03:11.734809+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000025C3D1E8DC0>
+2023-06-06T20:03:11.735809+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:03:11.735809+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:03:11.735809+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:03:11.735809+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:03:11.735809+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:03:11.736809+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:03:11.736809+0300 INFO download_video_thread.start()
+2023-06-06T20:03:11.737809+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:03:11.737809+0300 INFO Поток начал работу
+2023-06-06T20:03:11.738810+0300 INFO Попытка создания объекта видео
+2023-06-06T20:03:11.738810+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T20:03:14.472635+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:03:14.473636+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:03:14.473636+0300 INFO Попытка получения автора видео
+2023-06-06T20:03:14.473636+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T20:03:14.473636+0300 INFO Попытка получения названия видео
+2023-06-06T20:03:14.474636+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T20:03:14.474636+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T20:03:14.474636+0300 INFO Установил автора в поле
+2023-06-06T20:03:14.474636+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:03:14.497299+0300 INFO Установил название видео в поле
+2023-06-06T20:03:14.503313+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:03:14.503313+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:03:14.503313+0300 INFO Поток закрыт
+2023-06-06T20:04:13.477609+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:04:13.478609+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:04:13.478609+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:04:15.173395+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:04:15.174395+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:04:15.174395+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:04:15.174395+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001E022AB4D30>
+2023-06-06T20:04:15.175395+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001E022AB4DC0>
+2023-06-06T20:04:15.175395+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:04:15.175395+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:04:15.175395+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:04:15.176395+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:04:15.176395+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:04:15.176395+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:04:15.176395+0300 INFO download_video_thread.start()
+2023-06-06T20:04:15.177396+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:04:15.178396+0300 INFO Поток начал работу
+2023-06-06T20:04:15.178396+0300 INFO Попытка создания объекта видео
+2023-06-06T20:04:15.179396+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T20:04:17.339063+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:04:17.339063+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:04:17.340064+0300 INFO Попытка получения автора видео
+2023-06-06T20:04:17.340064+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T20:04:17.340064+0300 INFO Попытка получения названия видео
+2023-06-06T20:04:17.341063+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T20:04:17.341063+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T20:04:17.341063+0300 INFO Установил автора в поле
+2023-06-06T20:04:17.341063+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:04:17.342063+0300 INFO Создал painter: <PyQt5.QtGui.QPainter object at 0x000001E022A355B0>
+2023-06-06T20:04:17.342063+0300 INFO Создал metric: <PyQt5.QtGui.QFontMetrics object at 0x000001E022A35B60>
+2023-06-06T20:04:17.343063+0300 INFO Создал elided: 90% школьников решают эту задачу неправильно. Сможешь решить с п…
+2023-06-06T20:04:17.343063+0300 INFO Установил название видео в поле
+2023-06-06T20:04:17.348064+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:04:17.349065+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:04:17.349065+0300 INFO Поток закрыт
+2023-06-06T20:04:53.019375+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:04:53.019375+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:04:53.020374+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:04:59.022201+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:04:59.022201+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:04:59.022201+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:04:59.023201+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000002B9371A8D30>
+2023-06-06T20:04:59.023201+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000002B9371A8DC0>
+2023-06-06T20:04:59.024201+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:04:59.024201+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:04:59.024201+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:04:59.024201+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:04:59.024201+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:04:59.025201+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:04:59.025201+0300 INFO download_video_thread.start()
+2023-06-06T20:04:59.026201+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:04:59.027202+0300 INFO Поток начал работу
+2023-06-06T20:04:59.028202+0300 INFO Попытка создания объекта видео
+2023-06-06T20:04:59.028202+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T20:05:01.174847+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:05:01.174847+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:05:01.174847+0300 INFO Попытка получения автора видео
+2023-06-06T20:05:01.174847+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T20:05:01.175847+0300 INFO Попытка получения названия видео
+2023-06-06T20:05:01.175847+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T20:05:01.175847+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T20:05:01.175847+0300 INFO Установил автора в поле
+2023-06-06T20:05:01.176847+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:05:01.176847+0300 INFO Создал painter: <PyQt5.QtGui.QPainter object at 0x000002B9371295B0>
+2023-06-06T20:05:01.177848+0300 INFO Создал metric: <PyQt5.QtGui.QFontMetrics object at 0x000002B937129B60>
+2023-06-06T20:05:01.177848+0300 INFO Создал elided: 90% школьников решают эту задачу неправильно. Сможешь решить с п…
+2023-06-06T20:05:01.177848+0300 INFO Установил название видео в поле
+2023-06-06T20:05:01.184848+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:05:01.184848+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:05:01.184848+0300 INFO Поток закрыт
+2023-06-06T20:09:20.318193+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:09:20.318193+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:09:20.318193+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:09:21.365296+0300 INFO Некорректная ссылка: 
+2023-06-06T20:09:24.140931+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:09:24.140931+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:09:24.141932+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:09:24.141932+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000020581669090>
+2023-06-06T20:09:24.142932+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000020581669120>
+2023-06-06T20:09:24.142932+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:09:24.142932+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:09:24.142932+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:09:24.143932+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:09:24.143932+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:09:24.143932+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:09:24.143932+0300 INFO download_video_thread.start()
+2023-06-06T20:09:24.144932+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:09:24.145933+0300 INFO Поток начал работу
+2023-06-06T20:09:24.146934+0300 INFO Попытка создания объекта видео
+2023-06-06T20:09:24.146934+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T20:09:25.997830+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:09:25.998830+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:09:25.998830+0300 INFO Попытка получения автора видео
+2023-06-06T20:09:25.998830+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T20:09:25.998830+0300 INFO Попытка получения названия видео
+2023-06-06T20:09:25.999830+0300 INFO Ширина текстового поля в символах: 27
+2023-06-06T20:09:25.999830+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T20:09:25.999830+0300 INFO Установил автора в поле
+2023-06-06T20:09:25.999830+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:09:26.000830+0300 INFO Установил название видео в поле
+2023-06-06T20:09:26.007832+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:09:26.007832+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:09:26.008832+0300 INFO Поток закрыт
+2023-06-06T20:11:07.431260+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:11:07.432260+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:11:07.432260+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:11:09.213966+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:11:09.213966+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:11:09.213966+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=0JEz-3QY_BY
+2023-06-06T20:11:09.214966+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000022431239090>
+2023-06-06T20:11:09.214966+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000022431239120>
+2023-06-06T20:11:09.214966+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:11:09.214966+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:11:09.215966+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:11:09.215966+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:11:09.215966+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:11:09.215966+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:11:09.216966+0300 INFO download_video_thread.start()
+2023-06-06T20:11:09.216966+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:11:09.217968+0300 INFO Поток начал работу
+2023-06-06T20:11:09.218969+0300 INFO Попытка создания объекта видео
+2023-06-06T20:11:09.218969+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=0JEz-3QY_BY>
+2023-06-06T20:11:11.264051+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:11:11.264051+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:11:11.264051+0300 INFO Попытка получения автора видео
+2023-06-06T20:11:11.264051+0300 INFO Автор получен: Этому не учат в школе
+2023-06-06T20:11:11.264051+0300 INFO Попытка получения названия видео
+2023-06-06T20:11:11.265052+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x00000224311E9540>
+2023-06-06T20:11:11.265052+0300 INFO Название видео получено: 90% школьников решают эту задачу неправильно. Сможешь решить с помощью теоремы Пифагора?
+2023-06-06T20:11:11.265052+0300 INFO Объект elided создан: Этому не учат в школе
+2023-06-06T20:11:11.265052+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:11:11.266051+0300 INFO Установил автора в поле
+2023-06-06T20:11:11.267052+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x00000224311E9FC0>
+2023-06-06T20:11:11.267052+0300 INFO Объект elided создан: 90% школьников решают эту задачу неправильно. Сможешь решить с п…
+2023-06-06T20:11:11.267052+0300 INFO Установил название видео в поле
+2023-06-06T20:11:11.273052+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:11:11.274053+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:11:11.274053+0300 INFO Поток закрыт
+2023-06-06T20:15:06.598650+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:15:06.598650+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:15:06.599650+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:15:08.149221+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=klmpiHLSuXA
+2023-06-06T20:15:08.150221+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:15:08.150221+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=klmpiHLSuXA
+2023-06-06T20:15:08.150221+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001B20E859090>
+2023-06-06T20:15:08.151221+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001B20E859120>
+2023-06-06T20:15:08.151221+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:15:08.151221+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:15:08.151221+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:15:08.152221+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:15:08.152221+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:15:08.152221+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:15:08.152221+0300 INFO download_video_thread.start()
+2023-06-06T20:15:08.153222+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:15:08.154214+0300 INFO Поток начал работу
+2023-06-06T20:15:08.154214+0300 INFO Попытка создания объекта видео
+2023-06-06T20:15:08.155221+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=klmpiHLSuXA>
+2023-06-06T20:15:10.488549+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:15:10.489552+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:15:10.489552+0300 INFO Попытка получения автора видео
+2023-06-06T20:15:10.489552+0300 INFO Автор получен: Merion Academy - доступное IT образование
+2023-06-06T20:15:10.489552+0300 INFO Попытка получения названия видео
+2023-06-06T20:15:10.490546+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x000001B20E80AC70>
+2023-06-06T20:15:10.490546+0300 INFO Название видео получено: Что такое Kubernetes?
+2023-06-06T20:15:10.490546+0300 INFO Объект elided создан: Merion Academy - доступное IT образование
+2023-06-06T20:15:10.490546+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:15:10.491547+0300 INFO Установил автора в поле
+2023-06-06T20:15:10.491547+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x000001B20E80AC00>
+2023-06-06T20:15:10.492547+0300 INFO Объект elided создан: Что такое Kubernetes?
+2023-06-06T20:15:10.492547+0300 INFO Установил название видео в поле
+2023-06-06T20:15:10.497548+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:15:10.497548+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:15:10.498548+0300 INFO Поток закрыт
+2023-06-06T20:25:09.347240+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:25:09.348249+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:25:09.348249+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:25:17.949723+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=E8lEWJZvT1A
+2023-06-06T20:25:17.949723+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:25:17.950723+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=E8lEWJZvT1A
+2023-06-06T20:25:17.950723+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x0000016364BD9480>
+2023-06-06T20:25:17.951723+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x0000016364BD9510>
+2023-06-06T20:25:17.951723+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:25:17.951723+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:25:17.951723+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:25:17.951723+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:25:17.952723+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:25:17.952723+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:25:17.952723+0300 INFO download_video_thread.start()
+2023-06-06T20:25:17.953723+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:25:17.954723+0300 INFO Поток начал работу
+2023-06-06T20:25:17.955724+0300 INFO Попытка создания объекта видео
+2023-06-06T20:25:17.955724+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=E8lEWJZvT1A>
+2023-06-06T20:25:19.888738+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:25:19.888738+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:25:19.888738+0300 INFO Попытка получения автора видео
+2023-06-06T20:25:19.888738+0300 INFO Автор получен: Anton Balazh
+2023-06-06T20:25:19.889733+0300 INFO Попытка получения названия видео
+2023-06-06T20:25:19.889733+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x0000016364B89CB0>
+2023-06-06T20:25:19.889733+0300 INFO Название видео получено: БОЛЬ или дорога дураков в Euro Truck Simulator 2 TruckersMP
+2023-06-06T20:25:19.889733+0300 INFO Объект elided создан: Anton Balazh
+2023-06-06T20:25:19.890733+0300 INFO Попытка получения ключевых слов видео
+2023-06-06T20:25:19.890733+0300 INFO Установил автора в поле
+2023-06-06T20:25:19.890733+0300 INFO Ключевые слова видео получены: игры прохождения евро трак симулятор 2 Euro Truck Simulator 2 ETS2 ЕТС2 евро тарак симулятор 2 в 2023 году TruckersMP евро трак симулятор 2 по сети ЕТС2 с друзьями
+2023-06-06T20:25:19.891733+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:25:19.891733+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x0000016364B89D20>
+2023-06-06T20:25:19.891733+0300 INFO Объект elided создан: БОЛЬ или дорога дураков в Euro Truck Simulator 2 TruckersMP
+2023-06-06T20:25:19.891733+0300 INFO Установил название видео в поле
+2023-06-06T20:25:19.892734+0300 ERROR An error has been caught in function '<lambda>', process 'MainProcess' (18012), thread 'MainThread' (2756):
+Traceback (most recent call last):
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2195, in <module>
+    main()
+    └ <function main at 0x000001636472C160>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 2177, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+              │        │   │                          └ False
+              │        │   └ {'port': 49812, 'vm_type': None, 'client': '127.0.0.1', 'server': False, 'DEBUG_RECORD_SOCKET_READS': False, 'multiproc': Fal...
+              │        └ <function PyDB.run at 0x000001636471B130>
+              └ <__main__.PyDB object at 0x00000163638DE5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1489, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           │    │     │          │               │            │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │    │     │          │               │            └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+           │    │     │          │               └ None
+           │    │     │          └ ''
+           │    │     └ False
+           │    └ <function PyDB._exec at 0x000001636471B1C0>
+           └ <__main__.PyDB object at 0x00000163638DE5F0>
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    │             │        │     │        └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+    │             │        └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+    │             └ <function execfile at 0x000001636383D3F0>
+    └ <module '_pydev_bundle.pydev_imports' from 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.1\\plugins\\python...
+
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+                 │              │              │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              │              └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+                 │              └ 'D:\\Video_YouTube_Downloader_v3\\main.py'
+                 └ 'import sys\nfrom datetime import datetime\nfrom pathlib import Path\n\nfrom PyQt5 import QtWidgets\nfrom PyQt5.QtCore import...
+
+  File "D:\Video_YouTube_Downloader_v3\main.py", line 269, in <module>
+    sys.exit(_app.exec_())
+    │   │    │    └ <built-in method exec_>
+    │   │    └ <PyQt5.QtWidgets.QApplication object at 0x0000016364879AB0>
+    │   └ <built-in function exit>
+    └ <module 'sys' (built-in)>
+
+> File "D:\Video_YouTube_Downloader_v3\main.py", line 177, in <lambda>
+    lambda keywords: self.add_key_words_ADDITIONALMETHOD(title=keywords))
+           │         │    │                                    └ 'игры прохождения евро трак симулятор 2 Euro Truck Simulator 2 ETS2 ЕТС2 евро тарак симулятор 2 в 2023 году TruckersMP евро т...
+           │         │    └ <function MainWindow.add_key_words_ADDITIONALMETHOD at 0x0000016364B9B910>
+           │         └ <__main__.MainWindow object at 0x0000016364B9BD00>
+           └ 'игры прохождения евро трак симулятор 2 Euro Truck Simulator 2 ETS2 ЕТС2 евро тарак симулятор 2 в 2023 году TruckersMP евро т...
+
+TypeError: MainWindow.add_key_words_ADDITIONALMETHOD() got an unexpected keyword argument 'title'
+2023-06-06T20:25:19.924741+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:25:19.924741+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:25:19.924741+0300 INFO Поток закрыт
+2023-06-06T20:27:22.588017+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:27:22.588017+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:27:22.589018+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:27:29.277303+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=E8lEWJZvT1A
+2023-06-06T20:27:29.278304+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:27:29.278304+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=E8lEWJZvT1A
+2023-06-06T20:27:29.278304+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x000001F2929715A0>
+2023-06-06T20:27:29.279304+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x000001F292971630>
+2023-06-06T20:27:29.279304+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:27:29.279304+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:27:29.280304+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:27:29.280304+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:27:29.280304+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:27:29.280304+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:27:29.281304+0300 INFO download_video_thread.start()
+2023-06-06T20:27:29.282305+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:27:29.282305+0300 INFO Поток начал работу
+2023-06-06T20:27:29.283305+0300 INFO Попытка создания объекта видео
+2023-06-06T20:27:29.283305+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=E8lEWJZvT1A>
+2023-06-06T20:27:31.346351+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:27:31.346351+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:27:31.347351+0300 INFO Попытка получения автора видео
+2023-06-06T20:27:31.347351+0300 INFO Автор получен: Anton Balazh
+2023-06-06T20:27:31.347351+0300 INFO Попытка получения названия видео
+2023-06-06T20:27:31.347351+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x000001F29292A7A0>
+2023-06-06T20:27:31.347351+0300 INFO Название видео получено: БОЛЬ или дорога дураков в Euro Truck Simulator 2 TruckersMP
+2023-06-06T20:27:31.348351+0300 INFO Объект elided создан: Anton Balazh
+2023-06-06T20:27:31.348351+0300 INFO Попытка получения ключевых слов видео
+2023-06-06T20:27:31.348351+0300 INFO Установил автора в поле
+2023-06-06T20:27:31.349352+0300 INFO Ключевые слова видео получены: игры прохождения евро трак симулятор 2 Euro Truck Simulator 2 ETS2 ЕТС2 евро тарак симулятор 2 в 2023 году TruckersMP евро трак симулятор 2 по сети ЕТС2 с друзьями
+2023-06-06T20:27:31.349352+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x000001F292929F50>
+2023-06-06T20:27:31.349352+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:27:31.350353+0300 INFO Объект elided создан: БОЛЬ или дорога дураков в Euro Truck Simulator 2 TruckersMP
+2023-06-06T20:27:31.350353+0300 INFO Установил название видео в поле
+2023-06-06T20:27:31.355353+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x000001F29292A0A0>
+2023-06-06T20:27:31.356353+0300 INFO Объект elided создан: игры прохождения евро трак симулятор 2 Euro Truck Simulator 2 ETS2 ЕТ…
+2023-06-06T20:27:31.356353+0300 INFO Установил ключевые слова в поле
+2023-06-06T20:27:31.361354+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:27:31.361354+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:27:31.361354+0300 INFO Поток закрыт
+2023-06-06T20:28:05.447078+0300 INFO Сохранил путь для скачивания: D:\Video_YouTube_Downloader_v3 и установил его в поле пути
+2023-06-06T20:28:05.447078+0300 INFO Заблокировал взаимодействие с элементами получения пути сохранения
+2023-06-06T20:28:05.448079+0300 INFO Включил кнопки указания ссылки на видео и его скачивания
+2023-06-06T20:28:06.861667+0300 INFO Сохранил ссылку на видео: https://www.youtube.com/watch?v=E8lEWJZvT1A
+2023-06-06T20:28:06.861667+0300 INFO Заблокировал кнопки до окончания загрузки
+2023-06-06T20:28:06.862668+0300 INFO В конструкторе потокового класса создал переменные path_saved = D:\Video_YouTube_Downloader_v3, url_video = https://www.youtube.com/watch?v=E8lEWJZvT1A
+2023-06-06T20:28:06.862668+0300 INFO Создан экземпляр класса UploadingAVideoInAnotherStream: <DownloadVideo.UploadingAVideoInAnotherStream object at 0x00000296DCC19480>
+2023-06-06T20:28:06.862668+0300 INFO Создан экземпляр класса потока: <_pydev_bundle.pydev_monkey_qt._internal_patch_qt.<locals>.ThreadWrapper object at 0x00000296DCC19510>
+2023-06-06T20:28:06.863668+0300 INFO Помещен класс загрузки видео в новый поток
+2023-06-06T20:28:06.863668+0300 INFO Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске
+2023-06-06T20:28:06.863668+0300 INFO Настраиваю стартовые сигналы
+2023-06-06T20:28:06.863668+0300 INFO Настраиваю рабочие сигналы
+2023-06-06T20:28:06.864668+0300 INFO Настраиваю сигналы конца
+2023-06-06T20:28:06.864668+0300 INFO Настраиваю действия после закрытия потока
+2023-06-06T20:28:06.864668+0300 INFO download_video_thread.start()
+2023-06-06T20:28:06.865669+0300 INFO Установил в progressBar значение: 0
+2023-06-06T20:28:06.866672+0300 INFO Поток начал работу
+2023-06-06T20:28:06.867670+0300 INFO Попытка создания объекта видео
+2023-06-06T20:28:06.867670+0300 INFO Объект видео создан: <pytube.__main__.YouTube object: videoId=E8lEWJZvT1A>
+2023-06-06T20:28:09.007421+0300 INFO Попытка получения наилучшего стрима объекта видео
+2023-06-06T20:28:09.007421+0300 INFO Объект стрима видео создан: <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">
+2023-06-06T20:28:09.007421+0300 INFO Попытка получения автора видео
+2023-06-06T20:28:09.008421+0300 INFO Автор получен: Anton Balazh
+2023-06-06T20:28:09.008421+0300 INFO Попытка получения названия видео
+2023-06-06T20:28:09.008421+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x00000296DCBCA810>
+2023-06-06T20:28:09.008421+0300 INFO Название видео получено: БОЛЬ или дорога дураков в Euro Truck Simulator 2 TruckersMP
+2023-06-06T20:28:09.009421+0300 INFO Объект elided создан: Anton Balazh
+2023-06-06T20:28:09.009421+0300 INFO Попытка получения ключевых слов видео
+2023-06-06T20:28:09.009421+0300 INFO Установил автора в поле
+2023-06-06T20:28:09.009421+0300 INFO Ключевые слова видео получены: игры, прохождения, евро трак симулятор 2, Euro Truck Simulator 2, ETS2, ЕТС2, евро тарак симулятор 2 в 2023 году, TruckersMP, евро трак симулятор 2 по сети, ЕТС2 с друзьями
+2023-06-06T20:28:09.010422+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x00000296DCBC9E00>
+2023-06-06T20:28:09.010422+0300 INFO Испущен сигнал окончания работы потока
+2023-06-06T20:28:09.010422+0300 INFO Объект elided создан: БОЛЬ или дорога дураков в Euro Truck Simulator 2 TruckersMP
+2023-06-06T20:28:09.011422+0300 INFO Установил название видео в поле
+2023-06-06T20:28:09.016422+0300 INFO Объект metric создан: <PyQt5.QtGui.QFontMetrics object at 0x00000296DCBC9F50>
+2023-06-06T20:28:09.017422+0300 INFO Объект elided создан: игры, прохождения, евро трак симулятор 2, Euro Truck Simulator 2, ETS2,…
+2023-06-06T20:28:09.017422+0300 INFO Установил ключевые слова в поле
+2023-06-06T20:28:09.023105+0300 INFO Установил в progressBar значение: 100
+2023-06-06T20:28:09.023105+0300 INFO Загрузка завершена! Установил поля ввода ссылки в активное состояние.
+2023-06-06T20:28:09.023105+0300 INFO Поток закрыт

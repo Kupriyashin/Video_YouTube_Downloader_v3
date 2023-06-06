@@ -3,8 +3,8 @@ from datetime import datetime
 from pathlib import Path
 
 from PyQt5 import QtWidgets
-from PyQt5.QtCore import pyqtSlot, QThread
-from PyQt5.QtGui import QIcon, QPixmap
+from PyQt5.QtCore import pyqtSlot, QThread, Qt
+from PyQt5.QtGui import QIcon, QPixmap, QFontMetrics, QPainter
 from PyQt5.QtWidgets import QApplication, QFileDialog
 from loguru import logger
 from Forms import Ui_Form
@@ -149,6 +149,9 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
             logger.info(
                 f"Настраиваю функцию получения и загрузки видео в другом потоке и выполняю действия при запуске")
             self.download_video_thread.started.connect(self.download_video_class.download_video_and_getting_information)
+
+            logger.info(
+                f"Настраиваю стартовые сигналы")
             self.download_video_thread.started.connect(
                 lambda: self.updated_progress_bar_ADDITIONALMETHOD(value_of_progress=0))
             self.download_video_thread.started.connect(
@@ -156,10 +159,40 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
                                                                         true_false=True))
 
             logger.info(f"Настраиваю рабочие сигналы")
-            self.download_video_class._signal_run_thread.connect(
-                lambda: self.logging_of_information_COMPLEMENTARYMETHOD(information=f"Поток запущен", true_false=True))
             self.download_video_class._signal_error.connect(
                 lambda err: self.logging_of_information_COMPLEMENTARYMETHOD(information=err, true_false=False))
+
+            logger.info(f"Настраиваю сигнал получения автора")
+            self.download_video_class._signal_author.connect(
+                lambda author: self.add_author_ADDITIONALMETHOD(author=author))
+            self.download_video_class._signal_author.connect(
+                lambda author: self.logging_of_information_COMPLEMENTARYMETHOD(information=f"Автор видео: {author}",
+                                                                               true_false=True))
+
+            logger.info(f"Настраиваю сигнал получения названия видео")
+            self.download_video_class._signal_title.connect(
+                lambda title: self.add_title_ADDITIONALMETHOD(title=title))
+            self.download_video_class._signal_title.connect(
+                lambda title: self.logging_of_information_COMPLEMENTARYMETHOD(information=f"Название видео: {title}",
+                                                                              true_false=True))
+
+            logger.info(f"Настраиваю сигнал получения ключевых слов")
+            self.download_video_class._signal_key_words.connect(
+                lambda keywords: self.add_key_words_ADDITIONALMETHOD(key_word=keywords))
+            self.download_video_class._signal_key_words.connect(
+                lambda keywords: self.logging_of_information_COMPLEMENTARYMETHOD(
+                    information=f"Ключевые слова видео: {keywords}",
+                    true_false=True))
+
+
+            logger.info(f"Настраиваю сигнал КРИТИЧЕСКОЙ ОШИБКИ")
+            self.download_video_class._SIGNAL_CRITICAL_ERROR.connect(
+                lambda: self.logging_of_information_COMPLEMENTARYMETHOD(
+                    information="КРИТИЧЕСКАЯ ОШИБКА! ИЗУЧИТЕ ЛОГИ ПРИЛОЖЕНИЯ", true_false=False))
+            self.download_video_class._SIGNAL_CRITICAL_ERROR.connect(
+                lambda: self.end_of_download_ADDITIONALMETHOD())
+            self.download_video_class._SIGNAL_CRITICAL_ERROR.connect(
+                lambda: self.updated_progress_bar_ADDITIONALMETHOD(value_of_progress=0))
 
             logger.info("Настраиваю сигналы конца")
             self.download_video_class._signal_finished_all.connect(self.download_video_thread.quit)
@@ -172,10 +205,10 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
                 lambda: self.updated_progress_bar_ADDITIONALMETHOD(value_of_progress=100))
             self.download_video_thread.finished.connect(lambda: self.end_of_download_ADDITIONALMETHOD())
             self.download_video_thread.finished.connect(
-                lambda: self.logging_of_information_COMPLEMENTARYMETHOD(information="Поток успешно закрыт", true_false=True))
+                lambda: logger.info("Поток закрыт"))
 
             self.download_video_thread.start()
-            logger.info("Поток запущен")
+            logger.info("download_video_thread.start()")
 
         else:
             logger.info(f"Некорректная ссылка: {self.ui.url_video.text()}")
@@ -196,6 +229,42 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
         self.ui.pushButton_2.setEnabled(True)
         self.ui.url_video.clear()
         logger.info("Загрузка завершена! Установил поля ввода ссылки в активное состояние.")
+
+    @logger.catch()
+    @pyqtSlot()
+    def add_author_ADDITIONALMETHOD(self, author: str):
+
+        self.ui.author.setText(self.elided_text(text=author, pyqt_object=self.ui.author))
+        self.ui.author.setStyleSheet("color: green;")
+
+        logger.info("Установил автора в поле")
+
+    @logger.catch()
+    @pyqtSlot()
+    def add_title_ADDITIONALMETHOD(self, title: str):
+
+        self.ui.title_video.setText(self.elided_text(text=title, pyqt_object=self.ui.title_video))
+        self.ui.title_video.setStyleSheet("color: green;")
+
+        logger.info("Установил название видео в поле")
+
+    @logger.catch()
+    @pyqtSlot()
+    def add_key_words_ADDITIONALMETHOD(self, key_word: str):
+        self.ui.key_words.setText(self.elided_text(text=key_word, pyqt_object=self.ui.key_words))
+        self.ui.key_words.setStyleSheet("color: green;")
+
+        logger.info("Установил ключевые слова в поле")
+
+    @logger.catch()
+    def elided_text(self, text, pyqt_object):
+
+        metric = QFontMetrics(pyqt_object.font())
+        logger.info(f"Объект metric создан: {metric}")
+        elided = metric.elidedText(text, Qt.ElideRight, pyqt_object.width())
+        logger.info(f"Объект elided создан: {elided}")
+
+        return str(elided)
 
 
 if __name__ == '__main__':
