@@ -1,3 +1,4 @@
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -69,6 +70,7 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
             else:
                 self.ui.listWidget.addItem(f"❌{datetime.now().strftime('%H:%M:%S')} - {information}")
                 self.ui.listWidget.scrollToBottom()
+
         except Exception:
 
             self.ui.listWidget.addItem(
@@ -184,6 +186,37 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
                     information=f"Ключевые слова видео: {keywords}",
                     true_false=True))
 
+            logger.info(f"Настраиваю сигнал получения количества просмотров")
+            self.download_video_class._signal_number_of_views.connect(
+                lambda views: self.logging_of_information_COMPLEMENTARYMETHOD(
+                    information=f"Количество просмотров видео: {views}",
+                    true_false=True))
+            self.download_video_class._signal_number_of_views.connect(
+                lambda views: self.add_views_ADDITIONALMETHOD(views=views))
+
+            logger.info(f"Настраиваю сигнал получения длины видео")
+            self.download_video_class._signal_length.connect(
+                lambda length: self.logging_of_information_COMPLEMENTARYMETHOD(
+                    information=f"Длина видео: {length}",
+                    true_false=True))
+            self.download_video_class._signal_length.connect(
+                lambda length: self.add_length_ADDITIONALMETHOD(length=length))
+
+            logger.info(f"Настраиваю сигнал получения описания видео")
+            self.download_video_class._signal_description.connect(
+                lambda description: self.logging_of_information_COMPLEMENTARYMETHOD(
+                    information=f"Описание видео: {description}",
+                    true_false=True))
+            self.download_video_class._signal_description.connect(
+                lambda description: self.ui.textEdit.setText(description))
+
+            logger.info(f"Настраиваю сигнал получения титульного изображения видео")
+            self.download_video_class._signal_image_title.connect(
+                lambda path_image: self.logging_of_information_COMPLEMENTARYMETHOD(
+                    information=f"Путь к титульному изображению: {path_image}",
+                    true_false=True))
+            self.download_video_class._signal_image_title.connect(
+                lambda path_image: self.add_title_image_ADDITIONALMETHOD(path_image=path_image))
 
             logger.info(f"Настраиваю сигнал КРИТИЧЕСКОЙ ОШИБКИ")
             self.download_video_class._SIGNAL_CRITICAL_ERROR.connect(
@@ -233,28 +266,62 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
     @logger.catch()
     @pyqtSlot()
     def add_author_ADDITIONALMETHOD(self, author: str):
+        if author:
+            self.ui.author.setText(self.elided_text(text=author, pyqt_object=self.ui.author))
+            self.ui.author.setStyleSheet("color: green;")
 
-        self.ui.author.setText(self.elided_text(text=author, pyqt_object=self.ui.author))
-        self.ui.author.setStyleSheet("color: green;")
-
-        logger.info("Установил автора в поле")
+            logger.info("Установил автора в поле")
 
     @logger.catch()
     @pyqtSlot()
     def add_title_ADDITIONALMETHOD(self, title: str):
+        if title:
+            self.ui.title_video.setText(self.elided_text(text=title, pyqt_object=self.ui.title_video))
+            self.ui.title_video.setStyleSheet("color: green;")
 
-        self.ui.title_video.setText(self.elided_text(text=title, pyqt_object=self.ui.title_video))
-        self.ui.title_video.setStyleSheet("color: green;")
-
-        logger.info("Установил название видео в поле")
+            logger.info("Установил название видео в поле")
 
     @logger.catch()
     @pyqtSlot()
     def add_key_words_ADDITIONALMETHOD(self, key_word: str):
-        self.ui.key_words.setText(self.elided_text(text=key_word, pyqt_object=self.ui.key_words))
-        self.ui.key_words.setStyleSheet("color: green;")
+        if key_word:
+            self.ui.key_words.setText(self.elided_text(text=key_word, pyqt_object=self.ui.key_words))
+            self.ui.key_words.setStyleSheet("color: green;")
 
-        logger.info("Установил ключевые слова в поле")
+            logger.info("Установил ключевые слова в поле")
+
+    @logger.catch()
+    @pyqtSlot()
+    def add_views_ADDITIONALMETHOD(self, views: str):
+        if views:
+            self.ui.number_of_views.setText(self.elided_text(text=views, pyqt_object=self.ui.number_of_views))
+            self.ui.number_of_views.setStyleSheet("color: green;")
+            logger.info("Установил количество просмотров в поле")
+
+    @logger.catch()
+    @pyqtSlot()
+    def add_length_ADDITIONALMETHOD(self, length: str):
+        if length:
+            self.ui.video_length.setText(self.elided_text(text=length, pyqt_object=self.ui.video_length))
+            self.ui.video_length.setStyleSheet("color: green;")
+            logger.info("Установил длину видео в поле")
+
+    @logger.catch()
+    @pyqtSlot()
+    def add_title_image_ADDITIONALMETHOD(self, path_image: Path):
+        if path_image:
+
+            logger.info(f"Путь к титульному изображению: {str(path_image)}")
+
+            self.ui.title_image.setPixmap(QPixmap(str(path_image)))
+            logger.info("Титульное изображение установлено")
+
+            os.remove(path_image)
+            logger.info("Титульное изображение удалено из папки сохранения")
+
+        else:
+            self.logging_of_information_COMPLEMENTARYMETHOD(information=f"Ошибка доступа к титульному изображению!",
+                                                            true_false=False)
 
     @logger.catch()
     def elided_text(self, text, pyqt_object):
