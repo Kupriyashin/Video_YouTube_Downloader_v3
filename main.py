@@ -4,9 +4,9 @@ from datetime import datetime
 from pathlib import Path
 
 from PyQt5 import QtWidgets
-from PyQt5.QtCore import pyqtSlot, QThread, Qt
+from PyQt5.QtCore import pyqtSlot, QThread, Qt, QSize
 from PyQt5.QtGui import QIcon, QPixmap, QFontMetrics, QPainter
-from PyQt5.QtWidgets import QApplication, QFileDialog
+from PyQt5.QtWidgets import QApplication, QFileDialog, QMessageBox
 from loguru import logger
 from Forms import Ui_Form
 import re
@@ -163,6 +163,11 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
             logger.info(f"Настраиваю рабочие сигналы")
             self.download_video_class._signal_error.connect(
                 lambda err: self.logging_of_information_COMPLEMENTARYMETHOD(information=err, true_false=False))
+            self.download_video_class._signal_progress.connect(
+                lambda progress: self.updated_progress_bar_ADDITIONALMETHOD(value_of_progress=progress))
+            self.download_video_class._signal_information.connect(
+                lambda inform: self.logging_of_information_COMPLEMENTARYMETHOD(information=inform, true_false=True))
+
 
             logger.info(f"Настраиваю сигнал получения автора")
             self.download_video_class._signal_author.connect(
@@ -239,6 +244,8 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
             self.download_video_thread.finished.connect(lambda: self.end_of_download_ADDITIONALMETHOD())
             self.download_video_thread.finished.connect(
                 lambda: logger.info("Поток закрыт"))
+            self.download_video_thread.finished.connect(
+                lambda: self.finish_window_ADDITIONALMETHOD())
 
             self.download_video_thread.start()
             logger.info("download_video_thread.start()")
@@ -332,6 +339,23 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
         logger.info(f"Объект elided создан: {elided}")
 
         return str(elided)
+
+    @logger.catch()
+    @pyqtSlot()
+    def finish_window_ADDITIONALMETHOD(self):
+        logger.info("Запускаю диалоговое окно завершения загрузки")
+
+        msg = QMessageBox(self)
+        msg.setFixedSize(300, 150)
+        logger.info(f"Создал объект QMessageBox: {msg}")
+
+        msg.setIcon(QMessageBox.Information)
+        msg.setWindowTitle("Информационное окно")
+        msg.setText("Загрузка завершена")
+        logger.info("Установил в QMessageBox основные данные")
+
+        x = msg.exec_()
+        logger.info("Окно QMessageBox закрыто")
 
 
 if __name__ == '__main__':

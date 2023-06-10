@@ -1,9 +1,12 @@
+import random
+import sys
 from datetime import timedelta
 from pathlib import Path
 import httplib2
 from PIL import Image
 
 import pytube
+pytube.request.default_range_size = 1048576
 from PyQt5.QtCore import QObject, pyqtSignal, pyqtSlot
 
 from loguru import logger
@@ -13,6 +16,7 @@ class UploadingAVideoInAnotherStream(QObject):
     """
     Класс дополнительного потока для получения информации о видео и его загрузки
     """
+    _signal_information = pyqtSignal(str)
     _signal_progress = pyqtSignal(int)
     _signal_error = pyqtSignal(str)
     _signal_finished_all = pyqtSignal()
@@ -30,6 +34,29 @@ class UploadingAVideoInAnotherStream(QObject):
     _signal_image_title = pyqtSignal(Path)
     logger.info("Создал дополнительные сигналы")
 
+    @logger.catch(level="DEBUG")
+    def progress_download(self, stream, chunk, bytes_remaining):
+        """
+        Функция визуализации процесса загрузки данных видео
+        :param stream:
+        :param chunk:
+        :param bytes_remaining:
+        :return:
+        """
+        logger.info("Функция визуализации загрузки инициирована")
+
+        if self.__size_stream:
+            size = self.__size_stream
+            progress = int(((size - bytes_remaining) / size) * 100)
+            logger.info(f"progress: {progress}")
+
+            self._signal_information.emit(f"Получил дату: {progress}")
+            self._signal_progress.emit(progress)
+        else:
+            logger.info(f"В функцию визуализации не попали данные stream: {stream}\n"
+                        f"В функцию визуализации не попали данные chunk: {chunk}\n"
+                        f"В функцию визуализации не попали данные bytes_remaining: {bytes_remaining}\n")
+
     def __init__(self, path_saved: str, url_video: str):
         super(UploadingAVideoInAnotherStream, self).__init__()
 
@@ -42,6 +69,7 @@ class UploadingAVideoInAnotherStream(QObject):
         self._title = None
         self._author = None
 
+        self.__size_stream = None
         self.__stream = None
         self.__YouTube_object = None
 
@@ -64,11 +92,13 @@ class UploadingAVideoInAnotherStream(QObject):
         logger.info("Поток начал работу")
 
         # ______________________________________________________________________________________
-        self.__YouTube_object = pytube.YouTube(url=self.__url_video)
+        self.__YouTube_object = pytube.YouTube(url=self.__url_video, on_progress_callback=self.progress_download)
+
         logger.info("Попытка создания объекта видео")
 
         if self.__YouTube_object:
             logger.info(f"Объект видео создан: {self.__YouTube_object}")
+            self._signal_progress.emit(random.randint(0, 99))
         else:
             logger.info(f"Неудачная попытка создания объекта видео: {self.__YouTube_object}")
             self._signal_error.emit("Ошибка в создании объекта видео")
@@ -80,6 +110,12 @@ class UploadingAVideoInAnotherStream(QObject):
 
         if self.__stream:
             logger.info(f"Объект стрима видео создан: {self.__stream}")
+
+            self.__size_stream = self.__stream.filesize
+            logger.info(f"Получен размер видео: {self.__size_stream}")
+
+            self._signal_progress.emit(random.randint(0, 99))
+
         else:
             logger.info(f"Неудачная попытка создания объекта стрима видео: {self.__stream}")
             self._signal_error.emit("Ошибка в получении стрима видео")
@@ -92,6 +128,7 @@ class UploadingAVideoInAnotherStream(QObject):
         if self._author:
             logger.info(f"Автор получен: {self._author}")
             self._signal_author.emit(str(self._author))
+            self._signal_progress.emit(random.randint(0, 99))
         else:
             logger.info(f"Неудачная попытка получения автора видео: {self._author}")
             self._signal_error.emit("Ошибка при получении автора видео")
@@ -103,6 +140,7 @@ class UploadingAVideoInAnotherStream(QObject):
         if self._title:
             logger.info(f"Название видео получено: {self._title}")
             self._signal_title.emit(str(self._title))
+            self._signal_progress.emit(random.randint(0, 99))
         else:
             logger.info(f"Неудачная попытка получения названия видео: {self._title}")
             self._signal_error.emit("Ошибка при получении названия видео")
@@ -115,6 +153,7 @@ class UploadingAVideoInAnotherStream(QObject):
             self._key_words = ', '.join(self._key_words)
             logger.info(f"Ключевые слова видео получены: {self._key_words}")
             self._signal_key_words.emit(str(self._key_words))
+            self._signal_progress.emit(random.randint(0, 99))
         else:
             logger.info(f"Неудачная попытка получения ключевых слов видео: {self._key_words}")
             self._signal_error.emit("Ошибка при получении ключевых слов видео")
@@ -129,6 +168,7 @@ class UploadingAVideoInAnotherStream(QObject):
             logger.info(f"Количество просмотров получено: {self._number_of_views}")
 
             self._signal_number_of_views.emit(str(self._number_of_views))
+            self._signal_progress.emit(random.randint(0, 99))
         else:
             logger.info(f"Неудачная попытка получения количества просмотров видео: {self._key_words}")
             self._signal_error.emit("Ошибка при получении количества просмотров видео")
@@ -142,6 +182,7 @@ class UploadingAVideoInAnotherStream(QObject):
             logger.info(f"Длина видео получена: {self._length}")
 
             self._signal_length.emit(str(self._length))
+            self._signal_progress.emit(random.randint(0, 99))
 
         else:
             logger.info(f"Неудачная попытка получения длины видео: {self._length}")
@@ -154,6 +195,7 @@ class UploadingAVideoInAnotherStream(QObject):
 
             logger.info(f"описания видео получено: {self._description}")
             self._signal_description.emit(str(self._description))
+            self._signal_progress.emit(random.randint(0, 99))
 
         else:
             logger.info(f"Неудачная попытка получения описания видео: {self._description}")
@@ -170,11 +212,13 @@ class UploadingAVideoInAnotherStream(QObject):
 
             _, content = self._http_downloader.request(self._image_title)
             logger.info(f"Получил контент по ссылке")
+            self._signal_progress.emit(random.randint(0, 99))
 
             if content:
                 with open(Path("Title Image", "working_image.jpg"), "wb") as image_file:
                     image_file.write(content)
                     logger.info(f"Сохранил фото в папку: {image_file.name}")
+                self._signal_progress.emit(random.randint(0, 99))
 
                 if Path("Title Image", "working_image.jpg"):
 
@@ -184,6 +228,7 @@ class UploadingAVideoInAnotherStream(QObject):
                     logger.info("Изменил соотношение сторон изображения")
 
                     self._signal_image_title.emit(Path("Title Image", "working_image.jpg"))
+                    self._signal_progress.emit(random.randint(0, 99))
                 else:
                     logger.info("Ошибка при изменении размеров титульного изображения видео")
                     self._signal_error.emit("Ошибка при изменении размеров титульного изображения видео")
@@ -193,6 +238,9 @@ class UploadingAVideoInAnotherStream(QObject):
         else:
             logger.info(f"Неудачная попытка получения ссылки на титульное изображение видео: {self._image_title}")
             self._signal_error.emit("Ошибка при получении ссылки титульного изображения")
+        # ______________________________________________________________________________________
+        logger.info("Начал загрузку видео")
+        self.__stream.download(output_path=self.__path_saved)
         # ______________________________________________________________________________________
         self._signal_finished_all.emit()
         logger.info("Испущен сигнал окончания работы потока")
