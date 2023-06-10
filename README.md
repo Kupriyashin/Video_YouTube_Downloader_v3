@@ -1,5 +1,5 @@
 # YouTube Video Downloader v3 - Программное обеспечение для загрузки видео с ютуб на стационарный компьютер
-Можно скачать приложение для [**Windows**](https://github.com/Kupriyashin/Video_YouTube_Downloader_v3/blob/50d018ed7324c3ae63de57e4120260ee80420d3c/YOUTUBE%20VIDEO%20DOWNLOADER%20V.3_WINDOWS.zip) и Mac OS
+Можно скачать приложение для [**Windows**](https://github.com/Kupriyashin/Video_YouTube_Downloader_v3/blob/50d018ed7324c3ae63de57e4120260ee80420d3c/YOUTUBE%20VIDEO%20DOWNLOADER%20V.3_WINDOWS.zip)
 ##
 <div align="center">
  <img src= "https://media.tenor.com/OVjLk6kZF_QAAAAd/a-certain-scientific-railgun-t-toaru-kagaku-no-railgun-t.gif" />
