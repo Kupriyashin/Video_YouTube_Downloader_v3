@@ -1,5 +1,5 @@
 # YouTube Video Downloader v3 - Программное обеспечение для загрузки видео с ютуб на стационарный компьютер
-К сожалению, не удалось загрузить рабочий билд ввиду того, что он весит даже в сжатом состоянии 111 МБ
+Можно скачать приложение для Windows и Mac OS
 ##
 <div align="center">
  <img src= "https://media.tenor.com/OVjLk6kZF_QAAAAd/a-certain-scientific-railgun-t-toaru-kagaku-no-railgun-t.gif" />
