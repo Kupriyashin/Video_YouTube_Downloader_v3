@@ -1,8 +1,8 @@
 # YouTube Video Downloader v3 - Программное обеспечение для загрузки видео с ютуб на стационарный компьютер
 К сожалению, не удалось загрузить рабочий билд ввиду того, что он весит даже в сжатом состоянии 111 МБ
-
+##
 <div align="center">
- <img src= "https://i.gifer.com/M76J.gif" />
+ <img src= "https://media.tenor.com/OVjLk6kZF_QAAAAd/a-certain-scientific-railgun-t-toaru-kagaku-no-railgun-t.gif" />
 </div>
 
 По сравнению с **YouTube Video Downloader v2**, v3 была написана за меньший промежуток времени с меньшим количеством нервотрепки. По большей части это связано с обновлением библиотеки [**pytube**](https://github.com/pytube/pytube).
